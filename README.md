@@ -5,6 +5,7 @@
 ## データベース構成
 
 ## 使用技術
+![Untitled](https://github.com/reomin/inbody_project/assets/79410306/cd5af49a-c0f9-4b47-b947-36e9b567f83f)
 
 ### Frontend
 
