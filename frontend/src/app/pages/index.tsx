@@ -4,7 +4,7 @@ import Link from 'next/link'
 // import { Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-// import HomeHeader from '../components/HomeHeader'
+import HomeHeader from '../components/HomeHeader'
 // import MyHistoryList from '../components/MyHistoryList'
 // import { Config } from '../config'
 import { MyHistory } from '../domain/entities'
@@ -25,7 +25,8 @@ const Home: React.FC<Props> = ({ histories, totalCount }) => {
   
 
       <Header/>
-      <h1 className='flex justify-center mt-20'>こんにちは</h1>
+      <HomeHeader/>
+      {/* <h1 className='flex justify-center mt-20'>こんにちは</h1> */}
       {/* <Header />
       <HomeHeader />
       <Container className='mt-2 mb-2'> */}
