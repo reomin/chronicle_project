@@ -11,7 +11,7 @@ const HomeHeader =()=>{
         <div className="text-center font-mono">
             <div className="float-left ml-20">
                 <div>
-                    <div>
+                    <div className="flex">
                         <h1 className="text-5xl bold mt-20 mb-5">クロニクル、アプリケーション</h1>
                     </div>
                     <div className="mt-5 text-2x float-left">
