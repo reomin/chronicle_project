@@ -4,10 +4,11 @@ import Link from 'next/link'
 // import { Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-// import HomeHeader from '../components/HomeHeader'
+import HomeHeader from '../components/HomeHeader'
 // import MyHistoryList from '../components/MyHistoryList'
 // import { Config } from '../config'
 import { MyHistory } from '../domain/entities'
+import Container from 'postcss/lib/container'
 // import styles from '../styles/pages.module.css'
 
 type Props = {
@@ -25,7 +26,11 @@ const Home: React.FC<Props> = ({ histories, totalCount }) => {
   
 
       <Header/>
-      <h1 className='flex justify-center mt-20'>こんにちは</h1>
+      <HomeHeader/>
+      <div>
+        <h1 className='container flex float-left ml-20 mt-20 text-3xl border-l-4 border-indigo-500 pl-5'>自分年表 (新着順)</h1>
+      </div>
+      {/* <h1 className='flex justify-center mt-20'>こんにちは</h1> */}
       {/* <Header />
       <HomeHeader />
       <Container className='mt-2 mb-2'> */}
