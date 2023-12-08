@@ -13,7 +13,7 @@ const Header = () =>{
     return(
         <div className='dark:bg-gray-800 rounded-lg shadow m-4 underline'>
             <div className='w-full'>
-                <div className="text-white flex justify-between max-w-5xl mx-auto py-5">
+                <div className="text-white flex justify-between max-w-5xl ml-20 py-5">
                     <h1 className="text-[min(13vw,30px)]">chronicle作成ページ</h1>
                     <div className="flex items-center">
                     {/* ログインをしていたら、マイページに遷移するようにする */}

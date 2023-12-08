@@ -19,6 +19,10 @@ import { Items } from "@/types/items";
     console.log(e);
   }
 
+  const returnItem =(e: Number)=>{
+    console.log(e);
+  }
+
 function ItemLists(props: {items: Items[]}) {
     return (
       <div>
