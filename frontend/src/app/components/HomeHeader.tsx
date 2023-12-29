@@ -9,7 +9,7 @@ import title_logo from "../images/group_business.png";
 const HomeHeader =()=>{
     return(
         <div className="text-center font-mono">
-            <div className="float-left ml-20">
+            <div className="float-left ml-20 ">
                 <div>
                     <div className="flex">
                         <h1 className="text-5xl bold mt-20 mb-5">クロニクル、アプリケーション</h1>
@@ -23,7 +23,7 @@ const HomeHeader =()=>{
                         <button className="float-left flex">
                             <Link href={"/login/"}>
                                 <div className='mt-10 mr-10 text-2xl text-white bg-blue-500 p-3 rounded-full'>
-                                    今日の年表を見る
+                                    自分の年表を作る
                                 </div>
                             </Link>
                         </button>
@@ -39,7 +39,7 @@ const HomeHeader =()=>{
                         <button className="float-left flex">
                             <Link href={"/login/"}>
                                 <div className='mt-10 mr-10 text-2xl text-white bg-blue-500 p-3 rounded-full'>
-                                    今日の年表を見る
+                                    お気に入りの年表を探す
                                 </div>
                             </Link>
                         </button>
