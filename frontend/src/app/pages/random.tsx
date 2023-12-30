@@ -23,9 +23,8 @@ const Random: React.FC<Props> = ( {history} ) => { // 引数にhistoryを追加
             
                 const res = await fetch('http://localhost:8000/api/random', { method, headers })
                 const resJson = await res.json()
-                console.log(resJson);
                 if (resJson?.status == 'ok') {
-                setShowHistory(resJson?.history) // 追記(console.logは削除)
+                    setShowHistory(resJson?.history)
                 } else {
                 alert('failed to get history')
                 }

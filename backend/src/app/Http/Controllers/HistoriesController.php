@@ -15,7 +15,7 @@ class HistoriesController extends Controller
      */
     public function index()
     {
-        var_dump("  HistoriesController::index");
+        var_dump("Happy hacking!");
         die;
     }
 
