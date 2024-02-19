@@ -25,14 +25,14 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::group(['middleware' => 'api'], function () {
-    Route::get('register', "UsersController@register");
-});
+// Route::group(['middleware' => 'api'], function () {
+//     Route::get('register', "UsersController@register");
+// });
 
 
-Route::group(['middleware' => 'api'], function () {
-    Route::post('register', "UsersController@register");
-});
+// Route::group(['middleware' => 'api'], function () {
+//     Route::post('register', "UsersController@register");
+// });
 
 
 Route::get('/users', [UsersController::class, 'index']);
