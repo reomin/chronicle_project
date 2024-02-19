@@ -18,7 +18,7 @@ class AuthController extends Controller
     public function register(Request $request)
     {
         $user = User::create([
-            'name' => $request->name,
+            'name' => "test",
             'email' => $request->email,
             'password' => Hash::make($request->password),
             'admin' => 0,
@@ -26,7 +26,7 @@ class AuthController extends Controller
         $json = [
             'data' => $user
         ];
-        return response()->json($json, Response::HTTP_OK);
+        return response()->json("登録に成功しました", Response::HTTP_OK);
     }
 
     /**

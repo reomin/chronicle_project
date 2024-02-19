@@ -18,7 +18,10 @@ const Header = () =>{
                     <div className="flex items-center">
                     {/* ログインをしていたら、マイページに遷移するようにする */}
                         <Link href={"/login/"}>
-                            <h1>ログインはこちら</h1>
+                            <h1 className='mx-20'>ログインはこちら</h1>
+                        </Link>
+                        <Link href ={"/register/"}>
+                            <h1>新規登録はこちら</h1>   
                         </Link>
                     </div>
                 </div>
