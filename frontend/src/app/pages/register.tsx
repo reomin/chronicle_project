@@ -19,7 +19,7 @@ export default function Register() {
         if(!repo.ok){
             alert("登録に失敗しました");
         }else{
-            alert("登録に成功しました");
+            alert("登録に成功しました。");
         }
     }
     return(
